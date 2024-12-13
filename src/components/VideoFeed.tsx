@@ -10,7 +10,7 @@ export function VideoFeed({ isConnected }: VideoFeedProps) {
       <div className="relative">
         {isConnected ? (
           <img 
-            src="https://f951-27-4-166-26.ngrok-free.app/video_feed" 
+            src="https://localhost:5000/video_feed" 
             alt="Video Feed" 
             className="w-full rounded-lg shadow-2xl"
           />
