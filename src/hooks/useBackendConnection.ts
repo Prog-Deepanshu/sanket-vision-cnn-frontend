@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://f951-27-4-166-26.ngrok-free.app/';
 
 export function useBackendConnection() {
   const [isConnected, setIsConnected] = useState(false);
