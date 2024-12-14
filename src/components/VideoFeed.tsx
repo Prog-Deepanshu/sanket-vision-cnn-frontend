@@ -10,7 +10,7 @@ export function VideoFeed({ isConnected }: VideoFeedProps) {
       <div className="relative">
         {isConnected ? (
           <img 
-            src="https://localhost:5000/video_feed" 
+            src="http://127.0.0.1:5000/video_feed" 
             alt="Video Feed" 
             className="w-full rounded-lg shadow-2xl"
           />
